@@ -1,0 +1,126 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f1f1f1;
+    color:#333;
+}
+
+/* HEADER */
+.topbar{
+    background:#ffffff;
+    padding:25px 50px;
+    border-bottom:1px solid #ddd;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+/* LOGO GRANDE (AQUI ESTABA EL PROBLEMA) */
+.logo img{
+    height:120px;
+    width:auto;
+}
+
+.logo h1{
+    margin:0;
+    font-size:28px;
+    color:#1b4c9a;
+}
+
+.logo span{
+    font-size:16px;
+    color:#555;
+}
+
+/* BLUE TITLE BAR */
+.titlebar{
+    background:#1b4c9a;
+    color:white;
+    text-align:center;
+    padding:12px;
+    font-weight:bold;
+    letter-spacing:.5px;
+}
+
+/* MAIN */
+.container{
+    width:900px;
+    margin:30px auto;
+    background:white;
+    padding:30px 40px;
+    box-shadow:0 0 8px rgba(0,0,0,.1);
+}
+
+.orden{
+    text-align:center;
+    font-weight:normal;
+    color:#555;
+}
+
+.folio{
+    text-align:center;
+    margin-top:5px;
+    margin-bottom:25px;
+    color:#333;
+}
+
+/* INFO BOX */
+.info{
+    margin-bottom:25px;
+}
+
+.row{
+    display:flex;
+    padding:10px;
+    border-bottom:1px solid #eee;
+}
+
+.row span{
+    width:150px;
+    font-weight:bold;
+}
+
+.estado{
+    color:#1b4c9a;
+    font-weight:bold;
+}
+
+/* TABLE */
+.subtitle{
+    margin-top:20px;
+}
+
+.tabla{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+}
+
+.tabla th{
+    background:#f3f3f3;
+    padding:10px;
+    text-align:left;
+}
+
+.tabla td{
+    padding:10px;
+    border-top:1px solid #ddd;
+}
+
+.positivo{
+    color:#c62828;
+    font-weight:bold;
+}
+
+/* QR */
+.qr{
+    text-align:center;
+    margin-top:30px;
+}
+
+.qr img{
+    width:200px;
+}
